@@ -47,7 +47,7 @@ body h2 {
 }
 
 .ingresoDatos {
-  width: 400px;
+  width: 40%;
   z-index: 1;
   position: relative;
   margin: auto;
@@ -118,19 +118,19 @@ body h2 {
   border: solid 10px;
   border-radius: 25px;
   background-color: #f9e9e0;
-  width: 400px;
+  width: 40%;
   z-index: 1;
   position: absolute;
   margin: auto;
   left: 50%;
-  margin-left: -200px;
+  margin-left: -20%;
   top: 100px;
   text-align: center;
   padding: 10px;
 }
 .ganadores .ganadoresData {
   border: solid 2px;
-  width: 300px;
+  width: 90%;
   margin: auto;
   top: 10px;
 }
@@ -158,12 +158,12 @@ body h2 {
   border: solid 10px;
   border-radius: 25px;
   background-color: #f9e9e0;
-  width: 400px;
+  width: 50%;
   z-index: 1;
   position: absolute;
   margin: auto;
   left: 50%;
-  margin-left: -200px;
+  margin-left: -25%;
   top: 100px;
   text-align: center;
 }
@@ -192,6 +192,22 @@ body h2 {
   .contenedor .tapada {
     z-index: 1;
     border: solid orange;
+  }
+
+  .ingresoDatos {
+    width: 70%;
+  }
+
+  .desafortunado {
+    width: 70%;
+    left: 50%;
+    margin-left: -35%;
+  }
+
+  .ganadores {
+    width: 70%;
+    left: 50%;
+    margin-left: -40%;
   }
 }
 
